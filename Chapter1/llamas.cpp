@@ -16,7 +16,7 @@ int main()
         years++;
     }
 
-    std::cout << "se necesitan "<< years << " años para llegar alas "<< n1 << " llamas" << std::endl;
+    std::cout << "se necesitan "<< years << " años para llegar a las "<< n1 << " llamas" << std::endl;
 
     return 0;
 }

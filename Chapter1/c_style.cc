@@ -1,4 +1,4 @@
-// myfirst.cpp -- displays a message
+// c_style.cc -- displays a message
 #include <iostream> 
 #include "stdio.h"                        // a PREPROCESSOR directive
 int main()                                      // function header

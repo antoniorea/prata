@@ -1,6 +1,6 @@
 // c_style.cc -- displays a message
 #include <iostream> 
-#include "stdio.h"                        // a PREPROCESSOR directive
+#include <stdio.h>                       // a PREPROCESSOR directive
 int main()                                      // function header
 {                                               // start of function body
 /* using namespace std;                              make definitions visible */

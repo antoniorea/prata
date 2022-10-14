@@ -1,10 +1,14 @@
 // myfirst.cpp -- displays a message
-#include <iostream>                           // a PREPROCESSOR directive
+#include <iostream>                             // a PREPROCESSOR directive
+#include <string>                            
 int main()                                      // function header
 {                                               // start of function body
 /* using namespace std;                              make definitions visible */
-std::cout << "Come up and C++ me some time.";         // message
+std::string message1{"Come up and C++ me some time."};
+std::string message2{"You won't regret it!"};
+
+std::cout << message1;         // message
 std::cout << std::endl;                                    // start a new line
-std::cout << "You won't regret it!" << std::endl;          // more output
+std::cout <<  message2 << std::endl;          // more output
 return 0;                                       // terminate main()
 }                                               // end of function body

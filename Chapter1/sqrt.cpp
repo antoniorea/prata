@@ -14,7 +14,7 @@ double suma(double, double);        // prototipo de la funcion suma()
 int main()
 {    
     cout << " Introduzca dos numeros " << endl;
-    double n1 , n2 , n3 , n4;
+    double n1{} , n2{} , n3{} , n4{};
     cin >> n1 >> n2;
 
     n3 = sqrt(n1);       

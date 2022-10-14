@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n0, n1, years = 0;    
+    int n0{}, n1{}, years{};    
     
     std::cout << "enter the initial numbers of llamas :";
     std::cin >> n0;

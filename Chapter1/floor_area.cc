@@ -7,10 +7,10 @@ int main()
 {
     //  using namespace std;
 
-    double area;
+    double area{};
     std::cout << "Enter the floor area, in square feet, of your home: ";
     std::cin >> area;
-    double side;
+    double side{};
     side = sqrt(area);
     std::cout << "That's the equivalent of a square " << side
          << " feet to this side." << std::endl;

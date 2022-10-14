@@ -7,7 +7,7 @@ int main()
 {
 
     std::cout << "Please enter a Celsius value: ";
-    double cel;
+    double cel{};
     std::cin >> cel;
     auto fahr = fahrenhait(cel);
     std::cout << cel <<" degrees Celsius is "<< fahr << " degrees Fahrenheit." << std::endl;

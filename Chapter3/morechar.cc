@@ -1,4 +1,4 @@
-// morechar.cC -- the char type and integer type contrasted
+// morechar.cc -- the char type and integer type contrasted
 #include <iostream>
 
 

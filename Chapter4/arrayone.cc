@@ -16,7 +16,7 @@ int main()
     std::cout <<"The package with " << yams[1] << " yams costs ";
     std::cout << yamcosts[1] << " cents per yam.\n";
     total = 0;
-    const size_t old_school_size = sizeof(yams) / sizeof(yams[0]);
+    const size_t old_school_size = sizeof(yams) / sizeof(yams[0]);    // array length
     for (size_t i {} ; i < old_school_size ; ++i)
             total += yams[i] * yamcosts[i] ;
     

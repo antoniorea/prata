@@ -1,4 +1,4 @@
-// ex34.cc -- small arrays of integers cstyle
+// ex34.cc -- seconds to days
 #include <iostream>
 #include <cstdio> 
 

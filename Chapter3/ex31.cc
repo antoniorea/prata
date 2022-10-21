@@ -1,4 +1,5 @@
-// ex31.cc -- exceeding some integer limits
+// ex31.cc -- exercise 1 chapter 3
+// #define FOOT_IN_INCHES 12
 #include <iostream>
 
 int main()

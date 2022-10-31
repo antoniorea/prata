@@ -1,6 +1,8 @@
 // myfirst.cpp -- displays a message
 #include <iostream>                             // a PREPROCESSOR directive
-#include <string>                            
+#include <string>
+import <format>;
+                            
 int main()                                      // function header
 {                                               // start of function body
 /* using namespace std;                              make definitions visible */
